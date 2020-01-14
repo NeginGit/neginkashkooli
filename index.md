@@ -338,13 +338,13 @@ With an extensive involvement in different fields from design to development, sh
 				<div class="service-desc">
 						<h5>Valtech</h5>
 						<h6>General Mills, Amica, BLG, etc.</h6>
-						<p>Valtech is a consulting company that has several branches around the world. As a developer at Valtech, I work mostly with .Net MVC, Sitecore CMS, Azure Cloud Services and Sql Server to develop web applications.</p>						
+						<p>Valtech is a consulting company that has several branches around the world. As a developer at Valtech, I work mostly with .Net MVC, Sitecore CMS, Azure Cloud Services, Sql Server and Coveo to develop web applications.</p>						
 						<p class="work-p"><i>Some samples of my tasks are as follows:<i></p>
 						<ul class="work-ul">
 						<li>Integrating Microsoft Graph API to work with Azure Active Directory.</li>
 						<li>Developing Federated Authentication with LinkedIn and Facebook.</li>
-						<li>Developing Sitecore components.</li>
-						<li>Integrating Coveo</li>
+						<li>Developing Sitecore (components, forms, etc.).</li>
+						<li>Integrating Coveo.</li>
 						<li>Integrating AngularJS, Dapper and Auto Mapper with a Sitecore project.</li>
 						</ul>
 				</div>
