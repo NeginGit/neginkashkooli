@@ -292,18 +292,18 @@ With an extensive involvement in different fields from design to development, sh
 					<br/>
 					<p><strong>Azad University Tehran Central Branch, Tehran, Iran</strong></p>
 					<p>Bachelor’s Degree - Computer Engineering Majoring in Software</p>
-					<br/>					
-					<p><strong>MCSD - App Builder</strong></p>
-					<p><strong>MCSA - Web Applications</strong></p>
+					<br/>
 					<p><strong>Sitecore Certified Professional</strong></p>					
 				</div>
 			</div>
 			<div class="row">			
 				<div class="col-md-12">
+					<p><strong>MCSD - App Builder</strong></p>
 					<p><img src="img/badges/mcsd.png" style="width:200px" /></p>
 				</div>
 			</div>
 			<div class="row">
+				<p><strong>MCSA - Web Applications</strong></p>
 				<div class="col-md-12">
 					<p><img src="img/badges/mcsa.png" style="width:200px" /></p>
 				</div>
