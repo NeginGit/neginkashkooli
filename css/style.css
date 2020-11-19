@@ -779,7 +779,7 @@ Parallax
     }
 
     .navbar-custom.top-nav-collapse {
-        border-bottom: 1px solid rgba(255,255,255,.3);
+        border-bottom: 1px solid #FC851B /*rgba(255,255,255,.3)*/;
     }
 	
     .intro {
@@ -848,3 +848,38 @@ Parallax
 	padding-top: 30px;
     font-size: 20pt;
 }
+
+.univ-img{
+	width: 100px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.univ-text{
+	font-size: 16px;
+}
+
+.badge-img{
+	margin-right: 20px;
+}
+.ms-badge-img{
+	margin-right: 20px;
+	width: 200px;
+}
+
+@media (max-width:480px) {
+	.univ-img{
+		width: 80px;
+	}
+	.badge-text{
+		font-size: 10pt;
+	}
+	.ms-badge-img{
+		width: 100px;
+	}
+}
+/*@media (min-width:480px) {
+	.univ-major{
+		padding-left: 200px;
+	}
+}*/
