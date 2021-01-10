@@ -376,9 +376,14 @@ hr {
 	margin-bottom: 10px;
 }
 
-.avatar {
+.avatar {	
 	margin-bottom: 20px;
-	margin-left:45%;
+    margin-left: 30%;
+    margin-top: 20px;
+}
+
+.img-circle{
+	width: 400px;
 }
 
 .team-social {
