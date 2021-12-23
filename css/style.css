@@ -864,6 +864,15 @@ Parallax
 	font-size: 16px;
 }
 
+.tbp-img{
+    width: 400px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.tbp-text{
+    font-size: 16px;
+}
+
 .badge-img{
 	margin-right: 20px;
 }
