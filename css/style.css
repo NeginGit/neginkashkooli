@@ -885,6 +885,9 @@ Parallax
 	.univ-img{
 		width: 80px;
 	}
+    .tbp-img{
+        width: 200px;
+    }
 	.badge-text{
 		font-size: 10pt;
 	}
