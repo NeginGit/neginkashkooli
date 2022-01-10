@@ -904,6 +904,12 @@ Parallax
 		margin-left: 0px;
 	}
 }
+
+.solid-separator{
+    margin-top: 50px;
+    border-top: 3px solid #bbb;
+    margin-bottom: 50px;
+}
 /*@media (min-width:480px) {
 	.univ-major{
 		padding-left: 200px;
