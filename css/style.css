@@ -864,10 +864,15 @@ Parallax
 	font-size: 16px;
 }
 
+.sitecore-badge-img{
+    margin-left: -50px;
+}
+
 .tbp-img{
     width: 400px;
     margin-right: 20px;
     border-radius: 10px;
+    margin-left: -50px;
 }
 .tbp-text{
     font-size: 16px;
@@ -881,6 +886,19 @@ Parallax
 	width: 200px;
 }
 
+.dsa-badge-img{
+    width:200px;
+}
+
+.dsa-badge-text{
+        padding-left:10px;
+    }
+
+.dsa-p{
+    display:flex;
+    padding-left:310px;
+}
+
 @media (max-width:480px) {
 	.univ-img{
 		width: 80px;
@@ -888,6 +906,11 @@ Parallax
     .tbp-img{
         width: 200px;
     }
+
+    .sitecore-badge-img{
+        margin-left: -11px;
+    }
+
 	.badge-text{
 		font-size: 10pt;
 	}
@@ -897,9 +920,16 @@ Parallax
 	.badge-img{
 		width:100px;
 	}
-}
 
-@media (max-width:480px) {
+    .dsa-badge-img{        
+        width:100px;
+        height:100px;
+    }    
+
+    .dsa-p{
+        padding-left:0px;
+    }
+
 	.avatar{
 		margin-left: 0px;
 	}
