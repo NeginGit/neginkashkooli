@@ -29,13 +29,17 @@ a {
   text-align: center;
 }
 
-.profile-img {
+.profile-img img{
   width: 140px;
   height: 140px;
   object-fit: cover;
   border-radius: 50%;
   border: 4px solid var(--accent);
   margin-bottom: 1rem;
+}
+
+.profile-img{
+  margin-left: 80%;
 }
 
 h1 {
@@ -123,6 +127,177 @@ footer {
     display: none;
   }
 }
+
+.tau-beta-pi-badge{
+  background-image: url('img/badges/TBP.png');
+  margin: 0;
+  padding: 50px 0 50px 220px;  
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 200px;
+}
+
+.azure-data-scientist-badge{
+  background-image: url('img/badges/dsa.png');
+  margin: 0;
+  padding: 50px 0 50px 120px;  
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 100px;
+}
+
+.mcsd-app-builder-badge{
+  background-image: url('img/badges/mcsd.png');
+  margin: 0;
+  padding: 50px 0 50px 120px;  
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 100px;
+}
+
+.mcsa-web-applications-badge{
+  background-image: url('img/badges/mcsa.png');
+  margin: 0;
+  padding: 50px 0 50px 120px;  
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 100px;
+}
+
+.sitecore-certified-badge{
+  background-image: url('img/badges/sitecore.png');
+  margin: 0;
+  padding: 50px 0 50px 120px;  
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 100px;
+}
+
+.mcp-item{  
+  margin: 0;
+  padding: 50px 0 50px 120px;  
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 100px;
+}
+
+.experience-details li{
+  font-size: 0.8rem;
+  line-height: 1 !important;
+}
+
+
+.work-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* Show full image */
+}
+
+.iis-img-container {
+  width: 300px;
+  height: 185px;
+  border-radius: 15px; /* Rounded corners */
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--accent);  
+  margin: 50px auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.valtech-img-container{
+  width: 300px;
+  height: 130px;
+  border-radius: 15px; /* Rounded corners */
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--accent);  
+  margin: 50px auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.cineplex-img-container {
+  width: 300px;
+  height: 200px;
+  border-radius: 15px; /* Rounded corners */
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--accent);  
+  margin: 50px auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.iis-contract-img-container {
+  width: 300px;
+  height: 200px;
+  border-radius: 15px; /* Rounded corners */
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--accent);  
+  margin: 50px auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.nymity-img-container {
+  width: 300px;
+  height: 175px;
+  border-radius: 15px; /* Rounded corners */
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--accent);  
+  margin: 50px auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.medworxx-img-container {
+  width: 300px;
+  height: 185px;
+  border-radius: 15px; /* Rounded corners */
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--accent);  
+  margin: 50px auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.site-technologies-img-container {
+  width: 200px;
+  height: 200px;
+  border-radius: 15px; /* Rounded corners */
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--accent);  
+  margin: 50px auto;
+  padding: 15px;  
+}
+
+.site-technologies-img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* Show full image */
+}
+
 
 /* === Navigation Bar === */
 
