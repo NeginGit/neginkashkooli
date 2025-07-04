@@ -29,17 +29,20 @@ a {
   text-align: center;
 }
 
-.profile-img img{
+.profile-img img {
   width: 140px;
   height: 140px;
-  object-fit: cover;
+  object-fit: contain; /* 🔁 Show full image */
   border-radius: 50%;
   border: 4px solid var(--accent);
-  margin-bottom: 1rem;
+  background-color: white; /* Optional: to fill behind image if not square */
+  padding: 5px; /* Optional: for spacing inside the circle */
 }
 
-.profile-img{
-  margin-left: 80%;
+.profile-img {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
 }
 
 .univ{
@@ -134,101 +137,6 @@ h1 {
   font-size: 0.9rem;
 }
 
-footer {
-  text-align: center;
-  padding: 2rem 1rem;
-  font-size: 0.9rem;
-  color: var(--text);
-  background-color: var(--neutral);
-  margin-top: 2rem;
-}
-
-@media (max-width: 600px) {
-
-  .profile-img{
-    margin-left: 50%;
-    margin-top: 20px;
-  }
-
-  .univ{
-    display: flex;
-    flex-direction: column;
-  }
-
-  .skills {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .icon {
-    display: none;
-  }
-}
-
-.tau-beta-pi-badge{
-  background-image: url('../asset/img/badges/TBP.png');
-  margin: 0;
-  padding: 50px 0 50px 220px;  
-  background-repeat: no-repeat;
-  background-position: left;
-  background-size: 200px;
-}
-
-.azure-data-scientist-badge{
-  background-image: url('../asset/img/badges/dsa.png');
-  margin: 0;
-  padding: 50px 0 50px 120px;  
-  background-repeat: no-repeat;
-  background-position: left;
-  background-size: 100px;
-}
-
-.mcsd-app-builder-badge{
-  background-image: url('../asset/img/badges/mcsd.png');
-  margin: 0;
-  padding: 50px 0 50px 120px;  
-  background-repeat: no-repeat;
-  background-position: left;
-  background-size: 100px;
-}
-
-.mcsa-web-applications-badge{
-  background-image: url('../asset/img/badges/mcsa.png');
-  margin: 0;
-  padding: 50px 0 50px 120px;  
-  background-repeat: no-repeat;
-  background-position: left;
-  background-size: 100px;
-}
-
-.sitecore-certified-badge{
-  background-image: url('../asset/img/badges/sitecore.png');
-  margin: 0;
-  padding: 50px 0 50px 120px;  
-  background-repeat: no-repeat;
-  background-position: left;
-  background-size: 100px;
-}
-
-.mcp-item{  
-  margin: 0;
-  padding: 50px 0 50px 120px;  
-  background-repeat: no-repeat;
-  background-position: left;
-  background-size: 100px;
-}
-
-.experience-details li{
-  font-size: 0.8rem;
-  line-height: 1 !important;
-}
-
-
-.work-img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain; /* Show full image */
-}
 
 .iis-img-container {
   width: 300px;
@@ -340,6 +248,166 @@ footer {
   padding-left: 40%;
   width: 200px;
 }
+
+.tau-beta-pi-badge{
+  background-image: url('../asset/img/badges/TBP.png');
+  margin: 0;
+  padding: 50px 0 50px 220px;  
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 200px;
+}
+
+.azure-data-scientist-badge{
+  background-image: url('../asset/img/badges/dsa.png');
+  margin: 0;
+  padding: 50px 0 50px 120px;  
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 100px;
+}
+
+.mcsd-app-builder-badge{
+  background-image: url('../asset/img/badges/mcsd.png');
+  margin: 0;
+  padding: 50px 0 50px 120px;  
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 100px;
+}
+
+.mcsa-web-applications-badge{
+  background-image: url('../asset/img/badges/mcsa.png');
+  margin: 0;
+  padding: 50px 0 50px 120px;  
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 100px;
+}
+
+.sitecore-certified-badge{
+  background-image: url('../asset/img/badges/sitecore.png');
+  margin: 0;
+  padding: 50px 0 50px 120px;  
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 100px;
+}
+
+.mcp-item{  
+  margin: 0;
+  padding: 50px 0 50px 120px;  
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 100px;
+}
+
+.experience-details li{
+  font-size: 0.8rem;
+  line-height: 1 !important;
+}
+
+
+.work-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* Show full image */
+}
+
+.video{
+  width:320px;
+  height:240px;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 0.9rem;
+  color: var(--text);
+  background-color: var(--neutral);
+  margin-top: 2rem;
+}
+
+@media (max-width: 600px) {
+  .profile-img {
+    margin-left: 50%;
+    margin-top: 20px;
+  }
+
+  .univ{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .skills {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .icon {
+    display: none;
+  }
+
+  .iis-img-container {
+    width: 200px;
+    height: 135px;
+  }
+
+  .valtech-img-container{
+    width: 200px;
+    height: 95px;
+  }
+
+  .cineplex-img-container {
+    width: 225px;
+    height: 150px;
+  }
+
+  .iis-contract-img-container {
+    width: 180px;
+    height: 130px;
+  }
+
+  .nymity-img-container {
+    width: 200px;
+    height: 130px;
+  }
+
+  .medworxx-img-container {
+    width: 200px;
+    height: 135px;
+  }
+
+  .site-technologies-img-container {
+    width: 100px;
+    height: 100px;
+  }
+
+  .site-technologies-img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Show full image */
+  }
+
+  .tau-beta-pi-badge{
+    padding: 50px 0 50px 180px;
+    background-size: 150px;
+  }
+
+  .publication{
+    padding-left: 0%;    
+  }
+
+  .video{
+    width:200px;
+  }
+}
+
+
+
+
+
+
 
 /* === Navigation Bar === */
 
